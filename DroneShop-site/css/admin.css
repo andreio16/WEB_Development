@@ -1,0 +1,14 @@
+#tab{
+  margin: 2px auto;
+  font-size: x-small;
+  width: 70%;
+}
+#tab th {
+  border-bottom: 2px solid black ;
+  padding: 2px;
+  text-align: center;
+}
+#tab td{
+  padding: 0 5px;
+  text-align: center;
+}

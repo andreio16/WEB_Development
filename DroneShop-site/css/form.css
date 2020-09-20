@@ -1,0 +1,29 @@
+.form {
+  max-width: 70%;
+  float: left;
+}
+.form .form__field {
+  margin-bottom: 5px;
+}
+
+.form .form__input,
+.form .form__select,
+.form .form__textarea {
+  border: 1px solid grey;
+  height: 12px;
+  padding: 5px;
+}
+.form .form__select {
+    height: 25px;
+}
+
+.form .form__label {
+  width: 80px;
+  display: inline-block;
+}
+
+.form .form__button {
+  height: 30px;
+  clear: both;
+  float: center;
+}

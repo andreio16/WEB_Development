@@ -1,0 +1,67 @@
+
+@media screen and (max-width:1075px) {
+  .page{
+    width: 100%;
+    overflow: hidden;
+  }
+  .sidebar{
+    width: 75%;
+    height: 25%;
+    border: 30%;
+    float: none;
+
+  }
+  section{
+    width: 75%;
+    border: 30%;
+    float: none;
+  }
+  article{
+    width: 70%;
+    padding: 20px;
+
+  }
+  iframe{
+    width:70%;
+    height: 40%;
+  }
+  .footer-contact{
+    font-size: 12px;
+  }
+  .info-list-aside{
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width:320px) {
+  .page{
+    width: 320px;
+    border: 5%;
+  }
+}
+/*
+@media screen and (max-width:1532px) {
+  .page{
+    width: 100%;
+    overflow: hidden;
+  }
+  .sidebar{
+    width: 20%;
+    border:5% ;
+  }
+  section{
+    width: 65%;
+    border:5%
+  }
+  article{
+    width: 55%;
+  }
+  .headerPage__nav{
+    left: 0.5%;
+    right: 0.5%;
+    height: 3%;
+  }
+  iframe{
+    width:42%;
+    height: 38%;
+  }
+}*/

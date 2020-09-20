@@ -1,0 +1,8 @@
+<?php
+/* Log out process, unsets and destroys session variables */
+session_start();
+session_unset();
+session_destroy();
+$message = "V-ati delogat cu succes!";
+echo "<script type='text/javascript'>alert('$message');window.location.replace(\"http://localhost/pWEB/index.php\");</script>";
+?>
